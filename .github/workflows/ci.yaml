@@ -7,6 +7,6 @@ on:
 
 jobs:
   inherit-workflow:
-    uses: tuempresa/tuempresa-workflows/.github/workflows/reusable-workflow.yml@main
+    uses: /Eli-Mitten/gitactions-reusable-workflow/.github/workflows/gitactions-reusable-workflow.yaml@main
     with:
       node-version: '20'
