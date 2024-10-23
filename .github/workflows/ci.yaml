@@ -10,4 +10,4 @@ jobs:
     uses: Eli-Mitten/gitactions-reusable-workflow/.github/workflows/ci.yaml@main
     with:
       node-version: '20'
-      run-tests: 'npm run test:ci'
+      test-scripts: 'npm run test:ci'
