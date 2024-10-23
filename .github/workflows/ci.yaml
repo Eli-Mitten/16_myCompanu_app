@@ -1,0 +1,12 @@
+name: Application CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  inherit-workflow:
+    uses: tuempresa/tuempresa-workflows/.github/workflows/reusable-workflow.yml@main
+    with:
+      node-version: '20'
